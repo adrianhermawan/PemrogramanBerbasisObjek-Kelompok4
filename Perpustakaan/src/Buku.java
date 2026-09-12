@@ -40,10 +40,8 @@ public class Buku {
 
         System.out.println("Daftar Member yang Meminjam "+Judul+":");
         for (Member Nama : daftarMember){
-            System.out.println(i+". "+Nama.getID() + " - " + Nama.getNama());
+            System.out.println(i+". "+ Nama.getIdMember() + " - " + Nama.getNama());
             i = i+1;
         }
-
-
     }
 }
